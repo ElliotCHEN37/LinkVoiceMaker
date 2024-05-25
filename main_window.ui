@@ -30,7 +30,7 @@
       </property>
       <widget class="QPushButton" name="browse_button">
        <property name="text">
-        <string>Click to browse file or Drag and drop</string>
+        <string>Click to browse</string>
        </property>
       </widget>
       <widget class="QLabel" name="label">
@@ -40,7 +40,7 @@
       </widget>
       <widget class="QProgressBar" name="progressBar">
        <property name="value">
-        <number>24</number>
+        <number>0</number>
        </property>
       </widget>
      </widget>
@@ -61,7 +61,6 @@
      <string>File</string>
     </property>
     <addaction name="actionOpen"/>
-    <addaction name="actionSave"/>
     <addaction name="separator"/>
     <addaction name="actionQuit"/>
    </widget>
@@ -69,7 +68,7 @@
     <property name="title">
      <string>Help</string>
     </property>
-    <addaction name="actionAbout_2"/>
+    <addaction name="actionAbout"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuHelp"/>
@@ -89,29 +88,9 @@
     <string>Quit</string>
    </property>
   </action>
-  <action name="actionSave">
-   <property name="text">
-    <string>Save File</string>
-   </property>
-  </action>
   <action name="actionAbout">
    <property name="text">
     <string>About</string>
-   </property>
-  </action>
-  <action name="actionLatest">
-   <property name="text">
-    <string>BETA</string>
-   </property>
-  </action>
-  <action name="actionLatest_2">
-   <property name="text">
-    <string>Latest</string>
-   </property>
-  </action>
-  <action name="actionAbout_2">
-   <property name="text">
-    <string>About this program</string>
    </property>
   </action>
  </widget>
