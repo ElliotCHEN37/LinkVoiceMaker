@@ -1,7 +1,7 @@
 # LinkVoiceMaker
 A simple program which can convert any sound to link's voice (botw/totk)
 
-Download the latest release here: [Click to Download]()
+Download the latest release here: [Click to Download](https://github.com/ElliotCHEN37/LinkVoiceMaker/releases/latest/download/LinkVoiceMaker_Windows_x64.exe)
 
 ## Env
 -Python 2.7 or higher<br>
@@ -14,6 +14,9 @@ Download the latest release here: [Click to Download]()
 'cuz I don't have mac, so mac users need to build it by yourselves. 
 
 #### Build for Windows
+
+Looking for latest release? click [here](https://github.com/ElliotCHEN37/LinkVoiceMaker/releases/latest/download/LinkVoiceMaker_Windows_x64.exe)
+
 be sure you have installed `pyinstaller` before<br>
 1. run `cd path\to\this\project\folder`
 2. run `pyinstaller build.spec`
