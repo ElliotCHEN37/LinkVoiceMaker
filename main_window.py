@@ -63,7 +63,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Link Voice Maker v1.0"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Link Voice Maker v1.1"))
         self.browse_button.setText(_translate("MainWindow", "Click to browse"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><img src=\":/img/img/arrow_downward_48dp_FILL0_wght400_GRAD0_opsz48.svg\"/></p><p align=\"center\">Your File will be converted soon</p></body></html>"))
         self.menuFile.setTitle(_translate("MainWindow", "File"))

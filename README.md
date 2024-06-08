@@ -6,7 +6,7 @@ Download the latest release here: [Click to Download](https://github.com/ElliotC
 ## Env
 -Python 2.7 or higher<br>
 -Needed packages were listed at requirements.txt, you can install them by running the following command<br>
-`cd path\to\this\project\folder`<br>
+`cd path\to\the\folder`<br>
 `pip install -r requirements.txt`<br>
 -[ffmpeg](https://ffmpeg.org/download.html)
 
@@ -18,7 +18,7 @@ Download the latest release here: [Click to Download](https://github.com/ElliotC
 Looking for latest release? click [here](https://github.com/ElliotCHEN37/LinkVoiceMaker/releases/latest/download/LinkVoiceMaker_Windows_x64.exe)
 
 be sure you have installed `pyinstaller` before<br>
-1. run `cd path\to\this\project\folder`
+1. run `cd path\to\the\folder`
 2. run `pyinstaller build.spec`
 
 ## License
